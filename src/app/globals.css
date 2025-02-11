@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* Font-face */
+@font-face {
+    font-family: danaMedium;
+    src: url('/public/font/Dana-Medium.woff') format(woff);
+}
+@font-face {
+    font-family: danaBold;
+    src: url('/public/font/Dana-Bold.woff') format(woff);
+}
+@font-face {
+    font-family: danaBlack;
+    src: url('/public/font/Dana-Black.woff') format(woff);
+}
+
+@theme{
+    --font-danaMedium :"danaMedium";
+    --font-danaBold : "danaBold";
+    --font-danaBlack: "danaBlack";
+}
+
