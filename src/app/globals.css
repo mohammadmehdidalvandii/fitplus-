@@ -18,5 +18,22 @@
     --font-danaMedium :"danaMedium";
     --font-danaBold : "danaBold";
     --font-danaBlack: "danaBlack";
+
+    --color-primary-100 : #6F42C1;
+    --color-primary-200 : #8A2BE2;
+    --color-secondary-100 : #D3D3D3;
+    --color-secondary-200 : #A9A9A9;
+    --color-secondary-300 : #4B4B4B ;
+    --color-bg : #FAFAFA;
+
+    --breakpoint-xs: 20rem  
+}
+
+@utility container{
+    max-width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right:1rem;
+    padding-left:1rem;
 }
 
