@@ -1,10 +1,9 @@
+import Navbar from "@/components/modules/Navbar";
 
 export default function Home() {
   return (
-    <div className="">
-      <div className="container">
-        Home
-      </div>
-    </div>
+    <>
+    <Navbar/>
+    </>
   );
 }

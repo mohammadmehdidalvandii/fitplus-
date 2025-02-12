@@ -37,3 +37,9 @@
     padding-left:1rem;
 }
 
+@layer components{
+    .btn_primary{
+        @apply flex justify-center items-center w-auto h-10 bg-primary-100 px-2 rounded-2xl font-danaBlack font-black text-white text-xl duration-300 ease-linear hover:bg-primary-200
+    }
+}
+
