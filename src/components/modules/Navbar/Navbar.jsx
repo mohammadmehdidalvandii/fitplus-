@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <section className="navbar">
       <div className="container">
-        <div className={scrollNavbar ? "hidden lg:flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100 fixed right-4 left-4 z-20":"hidden lg:flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100"}>
+        <div className={scrollNavbar ? "hidden lg:flex justify-between items-center top-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100 fixed right-4 left-4 z-20":"hidden lg:flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100"}>
           <Link
             href="/"
             className="block uppercase font-semibold font-black text-3xl text-primary-100 "
@@ -101,7 +101,7 @@ function Navbar() {
             ورود / ثبت نام
           </Link>
         </div>
-        <div className={scrollNavbar ? "lg:hidden flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100 fixed right-4 left-4 z-20 " :"lg:hidden flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100"}>
+        <div className={scrollNavbar ? "lg:hidden flex justify-between items-center top-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100 fixed right-4 left-4 z-20 " :"lg:hidden flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100"}>
           <span 
           className="flex justify-center items-center w-10 h-10 rounded-lg text-2xl text-white cursor-pointer bg-primary-100 "
           onClick={handlerNavMenuShow}
