@@ -17,8 +17,8 @@ function Header() {
                     </div>
                 </div>
                 <div className="lg:flex gap-4  md:hidden">
-                    <Image src='/assets/images/p-1.jpg' width={250} height={300} className='rounded-lg'/>
-                    <Image src='/assets/images/p-2.jpg' width={250} height={300} className='rounded-lg'/>
+                    <Image src='/assets/images/p-1.jpg' width={250} height={300} alt='header-image' className='rounded-lg'/>
+                    <Image src='/assets/images/p-2.jpg' width={250} height={300} alt='header-image' className='rounded-lg'/>
                 </div>
             </div>
         </div>
