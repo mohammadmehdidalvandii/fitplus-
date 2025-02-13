@@ -35,7 +35,7 @@ function Navbar() {
         <div className={scrollNavbar ? "hidden lg:flex justify-between items-center top-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100 fixed right-4 left-4 z-20":"hidden lg:flex justify-between items-center mt-4 bg-white rounded-3xl p-4 shadow-md shadow-secondary-100"}>
           <Link
             href="/"
-            className="block uppercase font-semibold font-black text-3xl text-primary-100 "
+            className="block uppercase font-semibold font-black text-4xl text-primary-100 "
           >
             +Fitness
           </Link>
@@ -43,7 +43,7 @@ function Navbar() {
             <li className="*:block">
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 خانه
               </Link>
@@ -51,7 +51,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 مربیان
               </Link>
@@ -59,7 +59,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 خدمات
               </Link>
@@ -67,7 +67,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 تماس با ما
               </Link>
@@ -75,7 +75,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 بلاگ
               </Link>
@@ -83,7 +83,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 درباره ما
               </Link>
@@ -91,7 +91,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
               >
                 مشاوره آنلاین
               </Link>
@@ -134,7 +134,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     خانه
                   </Link>
@@ -142,7 +142,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     مربیان
                   </Link>
@@ -150,7 +150,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     خدمات
                   </Link>
@@ -158,7 +158,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     تماس با ما
                   </Link>
@@ -166,7 +166,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     بلاگ
                   </Link>
@@ -174,7 +174,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     درباره ما
                   </Link>
@@ -182,7 +182,7 @@ function Navbar() {
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="block font-danaBold text-xl font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
+                    className="block font-danaBold text-base font-black text-secondary-300 duration-400 ease-linear hover:text-primary-200"
                   >
                     مشاوره آنلاین
                   </Link>

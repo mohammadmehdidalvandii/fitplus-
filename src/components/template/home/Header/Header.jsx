@@ -11,9 +11,9 @@ function Header() {
                 <h1 className="block font-danaBlack font-black text-secondary-300 text-6xl">فیتنس پلاس </h1>
                     <p className="block font-danaBold font-extrabold text-primary-100 text-3xl mt-8">بزرگترین مرجع تخصصی ورزشی آنلاین ایران</p>
                     <p className="block mt-8 font-danaMedium font-semibold text-3xl">تغذیه  و  برنامه ورزشی</p>
-                    <div className="flex gap-4 lg:justify-start  md:justify-center">
-                        <Link href='' className='btn_primary mt-8 w-30'>ثبت نام مربی</Link>
-                        <Link href='' className='btn_secondary mt-8 w-30'>مشاوره آنلاین</Link>
+                    <div className="flex gap-4 lg:justify-st  md:justify-center">
+                        <Link href='' className='btn_primary mt-8 w-40'>ثبت نام مربی</Link>
+                        <Link href='' className='btn_secondary mt-8 w-40'>مشاوره آنلاین</Link>
                     </div>
                 </div>
                 <div className="lg:flex gap-4  md:hidden">
