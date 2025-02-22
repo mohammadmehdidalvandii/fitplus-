@@ -47,5 +47,14 @@
     .bg_shadow{
         @apply block fixed  top-0 right-0 bg-black/70 w-full h-full backdrop-blur-xs    
     }
+    .title{
+        @apply font-danaBlack text-5xl text-center text-primary-100
+    }
+    .navButtonNext{
+        @apply flex justify-center items-center bg-white w-12 h-12 text-black text-2xl rounded-full duration-400 hover:bg-primary-200 hover:text-white cursor-pointer
+    }
+    .navButtonPrev{
+        @apply flex justify-center items-center bg-white w-12 h-12 text-black text-2xl rounded-full duration-400 hover:bg-primary-200 hover:text-white cursor-pointer
+    }
 }
 
