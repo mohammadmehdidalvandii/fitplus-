@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
 import { IoIosArrowBack , IoIosArrowForward } from "react-icons/io";
+import CoachCard from "@/components/modules/CoachCard/CoachCard";
 
 
 function Coaches() {
@@ -59,99 +60,19 @@ function Coaches() {
             className="mySwiper"
           >
             <SwiperSlide className="pb-6">
-              <Link href='/' className="block bg-white p-2 rounded-lg shadow-lg shadow-secondary-100 duration-400 hover:bg-primary-100 hover:text-white">
-                <Image
-                  src="/assets/images/p-1.jpg"
-                  alt="coaches "
-                  width={100}
-                  height={100}
-                  className="rounded-md w-full h-100"
-                />
-                <div className="block text-center mt-4">
-                  <h6 className="block font-danaMedium text-2xl text-secondary-300">
-                    محمدرضا محمدی
-                  </h6>
-                  <p className="block font-danaMedium text-lg text-secondary-200">
-                    مربی
-                  </p>
-                </div>
-              </Link>
+              <CoachCard/>
             </SwiperSlide>
             <SwiperSlide className="pb-6">
-              <Link href='/' className="block bg-white p-2 rounded-lg shadow-lg shadow-secondary-100 duration-400 hover:bg-primary-100 hover:text-white">
-                <Image
-                  src="/assets/images/p-1.jpg"
-                  alt="coaches "
-                  width={100}
-                  height={100}
-                  className="rounded-md w-full h-100"
-                />
-                <div className="block text-center mt-4">
-                  <h6 className="block font-danaMedium text-2xl text-secondary-300">
-                    محمدرضا محمدی
-                  </h6>
-                  <p className="block font-danaMedium text-lg text-secondary-200">
-                    مربی
-                  </p>
-                </div>
-              </Link>
+                <CoachCard/>
             </SwiperSlide>
             <SwiperSlide className="pb-6">
-              <Link href='/' className="block bg-white p-2 rounded-lg shadow-lg shadow-secondary-100 duration-400 hover:bg-primary-100 hover:text-white">
-                <Image
-                  src="/assets/images/p-1.jpg"
-                  alt="coaches "
-                  width={100}
-                  height={100}
-                  className="rounded-md w-full h-100"
-                />
-                <div className="block text-center mt-4">
-                  <h6 className="block font-danaMedium text-2xl text-secondary-300">
-                    محمدرضا محمدی
-                  </h6>
-                  <p className="block font-danaMedium text-lg text-secondary-200">
-                    مربی
-                  </p>
-                </div>
-              </Link>
+                <CoachCard/>
             </SwiperSlide>
             <SwiperSlide className="pb-6">
-              <Link href='/' className="block bg-white p-2 rounded-lg shadow-lg shadow-secondary-100 duration-400 hover:bg-primary-100 hover:text-white">
-                <Image
-                  src="/assets/images/p-1.jpg"
-                  alt="coaches "
-                  width={100}
-                  height={100}
-                  className="rounded-md w-full h-100"
-                />
-                <div className="block text-center mt-4">
-                  <h6 className="block font-danaMedium text-2xl text-secondary-300">
-                    محمدرضا محمدی
-                  </h6>
-                  <p className="block font-danaMedium text-lg text-secondary-200">
-                    مربی
-                  </p>
-                </div>
-              </Link>
+                <CoachCard/>
             </SwiperSlide>
             <SwiperSlide className="pb-6">
-              <Link href='/' className="block bg-white p-2 rounded-lg shadow-lg shadow-secondary-100 duration-400 hover:bg-primary-100 hover:text-white">
-                <Image
-                  src="/assets/images/p-1.jpg"
-                  alt="coaches "
-                  width={100}
-                  height={100}
-                  className="rounded-md w-full h-100"
-                />
-                <div className="block text-center mt-4">
-                  <h6 className="block font-danaMedium text-2xl text-secondary-300">
-                    محمدرضا محمدی
-                  </h6>
-                  <p className="block font-danaMedium text-lg text-secondary-200">
-                    مربی
-                  </p>
-                </div>
-              </Link>
+                <CoachCard/>
             </SwiperSlide>
           </Swiper>
         </div>
